@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="COUPLING_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\COUPLING_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NIPPLE_STEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Steel\NIPPLE_STEEL.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UNION_HDPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\HDPE\UNION_HDPE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UBolt88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\UBolt88.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PIPE_PVC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\PVC\PIPE_PVC.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BRANCH_CONNECTION_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\BRANCH_CONNECTION_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ELBOW_STEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Steel\ELBOW_STEEL.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="45grELBOW_HDPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\HDPE\45grELBOW_HDPE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BoltsA2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\BoltsA2.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CONC_REDUCER_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\CONC_REDUCER_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COUPLING_STEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Steel\COUPLING_STEEL.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bolts88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\Bolts88.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COUPLING_PVC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\PVC\COUPLING_PVC.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="45grELBOW_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\45grELBOW_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RED_TEE_PVC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\PVC\RED_TEE_PVC.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAP_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\CAP_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BLIND_FLANGE_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\BLIND_FLANGE_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FLANGE_SW_PVC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\PVC\FLANGE_SW_PVC.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PIPE_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\PIPE_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NIPPLE_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\NIPPLE_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BLIND_FLANG_STEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Steel\BLIND_FLANG_STEEL.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PULLED_TEE_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\PULLED_TEE_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PipeClamp304L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\PipeClamp304L.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STUB_END_STEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Steel\STUB_END_STEEL.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UNION_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\UNION_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RED_TEE_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\RED_TEE_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ECC_REDUCER_PVC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\PVC\ECC_REDUCER_PVC.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STUB_END_HDPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\HDPE\STUB_END_HDPE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STUB_END_PVC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\PVC\STUB_END_PVC.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PipeClamp88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\PipeClamp88.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RED_TEE_STEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Steel\RED_TEE_STEEL.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WN_FLANG_STEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Steel\WN_FLANG_STEEL.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ECC_RED_HDPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\HDPE\ECC_RED_HDPE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dammgulast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\Dammgulast.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="45gr_ELBOW_PVC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\PVC\45gr_ELBOW_PVC.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PipeClipASV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\PipeClipASV.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CONC_REDUCER_PVC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\PVC\CONC_REDUCER_PVC.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FLANGE_LJ_PVC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\PVC\FLANGE_LJ_PVC.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAP_STEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Steel\CAP_STEEL.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="REDUCING_BUSH_PVC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\PVC\REDUCING_BUSH_PVC.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAP_HDPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\HDPE\CAP_HDPE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLET_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\OLET_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UBoltA2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\UBoltA2.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GasketSILICONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\GasketSILICONE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stauff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\Stauff.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ELBOW_HDPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\HDPE\ELBOW_HDPE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CONC_RED_HDPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\HDPE\CONC_RED_HDPE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLET_STEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Steel\OLET_STEEL.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RED_STEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Steel\RED_STEEL.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TEE_PVC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\PVC\TEE_PVC.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UBolt881" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\UBolt88.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PIPE_HDPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\HDPE\PIPE_HDPE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LJ_FLANGE_ALU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\LJ_FLANGE_ALU.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FLANGE_BLIND_PVC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\PVC\FLANGE_BLIND_PVC.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PIPE_STEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Steel\PIPE_STEEL.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAP_PVC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\PVC\CAP_PVC.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PipeClipGOEMA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\PipeClipGOEMA.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ELBOW_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\ELBOW_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FEMALE_ADAPTER_HDPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\HDPE\FEMALE_ADAPTER_HDPE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LJ_FLANGE_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\LJ_FLANGE_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MALE_ADAPTER_HDPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\HDPE\MALE_ADAPTER_HDPE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ELEC_COUPLING_HDPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\HDPE\ELEC_COUPLING_HDPE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UNION_STEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Steel\UNION_STEEL.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UNION_PVC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\PVC\UNION_PVC.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TEE_HDPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\HDPE\TEE_HDPE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SO_FLANGE_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\SO_FLANGE_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StudBoltsA2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\StudBoltsA2.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GasketEPDM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\GasketEPDM.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GasketNBR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\GasketNBR.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Male_Adaptor_PVC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\PVC\Male_Adaptor_PVC.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RED_TEE_HDPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\HDPE\RED_TEE_HDPE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WN_FLANGE_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\WN_FLANGE_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LJ_FLANGE_HDPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\HDPE\LJ_FLANGE_HDPE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TEE_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\TEE_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BLIND_FLANGE_HDPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\HDPE\BLIND_FLANGE_HDPE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GasketPTFE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\GasketPTFE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ECC_RED_STEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Steel\ECC_RED_STEEL.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TEE_STEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Steel\TEE_STEEL.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ADAPTOR_REDUCING_BUSH_PVC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\PVC\ADAPTOR_REDUCING_BUSH_PVC.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SO_FLANG_STEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Steel\SO_FLANG_STEEL.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LJ_FLANG_STEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Steel\LJ_FLANG_STEEL.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ECC_REDUCER_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\ECC_REDUCER_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STUB_END_STAINLESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Stainless\STUB_END_STAINLESS.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="45grELBOW_STEEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Steel\45grELBOW_STEEL.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ELBOW_PVC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\PVC\ELBOW_PVC.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PipeClamp304L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\PipeClamp304L.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StudBolts88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\obj\Options\StudBolts88.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
