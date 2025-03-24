@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8A3513BC-66BC-4E04-AC1C-14A39898E069}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Inventor_Pipe.My.MyApplication</StartupObject>
+    <RootNamespace>Inventor_Pipe</RootNamespace>
+    <AssemblyName>PIPE_FOR_INVENTOR</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PIPE_FOR_INVENTOR.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PIPE_FOR_INVENTOR.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icoPIPE.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>BF2690AE618806BAED5C2BED553612F261AB5BD8</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Piping App_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autodesk.Inventor.Interop, Version=29.2.0.0, Culture=neutral, PublicKeyToken=d84147f8b4276564, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Autodesk.Inventor.Interop\v4.0_22.0.0.0__d84147f8b4276564\Autodesk.Inventor.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmModifyPipeLenght.Designer.vb">
+      <DependentUpon>frmModifyPipeLenght.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModifyPipeLenght.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPiping.Designer.vb">
+      <DependentUpon>frmPiping.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPiping.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRotateElbow.Designer.vb">
+      <DependentUpon>frmRotateElbow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRotateElbow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="frmPiping.resx">
+      <DependentUpon>frmPiping.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRotateElbow.resx">
+      <DependentUpon>frmRotateElbow.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmModifyPipeLenght.resx">
+      <DependentUpon>frmModifyPipeLenght.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Options\Bolts88.JPG" />
+    <None Include="obj\Options\BoltsA2.JPG" />
+    <None Include="obj\Options\Dammgulast.JPG" />
+    <None Include="obj\Options\GasketEPDM.JPG" />
+    <None Include="obj\Options\GasketNBR.JPG" />
+    <None Include="obj\Options\GasketPTFE.JPG" />
+    <None Include="obj\Options\GasketSILICONE.JPG" />
+    <None Include="obj\Options\PipeClamp304L.JPG" />
+    <None Include="obj\Options\PipeClipASV.JPG" />
+    <None Include="obj\Options\PipeClipGOEMA.JPG" />
+    <None Include="obj\Options\Stauff.JPG" />
+    <None Include="obj\Options\UBolt88.JPG" />
+    <None Include="obj\Options\UBoltA2.JPG" />
+    <None Include="obj\Options\PipeClamp88.JPG" />
+    <None Include="obj\PVC\ADAPTOR_REDUCING_BUSH_PVC.JPG" />
+    <None Include="obj\PVC\CAP_PVC.JPG" />
+    <None Include="obj\PVC\CONC_REDUCER_PVC.JPG" />
+    <None Include="obj\PVC\COUPLING_PVC.JPG" />
+    <None Include="obj\PVC\ECC_REDUCER_PVC.JPG" />
+    <None Include="obj\PVC\ELBOW_PVC.JPG" />
+    <None Include="obj\PVC\FLANGE_BLIND_PVC.JPG" />
+    <None Include="obj\PVC\FLANGE_LJ_PVC.JPG" />
+    <None Include="obj\PVC\FLANGE_SW_PVC.JPG" />
+    <None Include="obj\PVC\Male_Adaptor_PVC.JPG" />
+    <None Include="obj\PVC\PIPE_PVC.JPG" />
+    <None Include="obj\PVC\RED_TEE_PVC.JPG" />
+    <None Include="obj\PVC\REDUCING_BUSH_PVC.JPG" />
+    <None Include="obj\PVC\STUB_END_PVC.JPG" />
+    <None Include="obj\PVC\TEE_PVC.JPG" />
+    <None Include="obj\PVC\UNION_PVC.JPG" />
+    <None Include="obj\PVC\45gr_ELBOW_PVC.JPG" />
+    <None Include="obj\HDPE\45grELBOW_HDPE.JPG" />
+    <None Include="obj\HDPE\BLIND_FLANGE_HDPE.JPG" />
+    <None Include="obj\HDPE\CAP_HDPE.JPG" />
+    <None Include="obj\HDPE\CONC_RED_HDPE.JPG" />
+    <None Include="obj\HDPE\ECC_RED_HDPE.JPG" />
+    <None Include="obj\HDPE\ELBOW_HDPE.JPG" />
+    <None Include="obj\HDPE\ELEC_COUPLING_HDPE.JPG" />
+    <None Include="obj\HDPE\FEMALE_ADAPTER_HDPE.JPG" />
+    <None Include="obj\HDPE\LJ_FLANGE_HDPE.JPG" />
+    <None Include="obj\HDPE\MALE_ADAPTER_HDPE.JPG" />
+    <None Include="obj\HDPE\PIPE_HDPE.JPG" />
+    <None Include="obj\HDPE\RED_TEE_HDPE.JPG" />
+    <None Include="obj\HDPE\STUB_END_HDPE.JPG" />
+    <None Include="obj\HDPE\TEE_HDPE.JPG" />
+    <None Include="obj\HDPE\UNION_HDPE.JPG" />
+    <None Include="obj\Stainless\45grELBOW_STAINLESS.JPG" />
+    <None Include="obj\Stainless\BLIND_FLANGE_STAINLESS.JPG" />
+    <None Include="obj\Stainless\CAP_STAINLESS.JPG" />
+    <None Include="obj\Stainless\CONC_REDUCER_STAINLESS.JPG" />
+    <None Include="obj\Stainless\COUPLING_STAINLESS.JPG" />
+    <None Include="obj\Stainless\ECC_REDUCER_STAINLESS.JPG" />
+    <None Include="obj\Stainless\ELBOW_STAINLESS.JPG" />
+    <None Include="obj\Stainless\LJ_FLANGE_STAINLESS.JPG" />
+    <None Include="obj\Stainless\NIPPLE_STAINLESS.JPG" />
+    <None Include="obj\Stainless\OLET_STAINLESS.JPG" />
+    <None Include="obj\Stainless\PIPE_STAINLESS.JPG" />
+    <None Include="obj\Stainless\RED_TEE_STAINLESS.JPG" />
+    <None Include="obj\Stainless\SO_FLANGE_STAINLESS.JPG" />
+    <None Include="obj\Stainless\STUB_END_STAINLESS.JPG" />
+    <None Include="obj\Stainless\TEE_STAINLESS.JPG" />
+    <None Include="obj\Stainless\UNION_STAINLESS.JPG" />
+    <None Include="obj\Stainless\WN_FLANGE_STAINLESS.JPG" />
+    <None Include="obj\Steel\45grELBOW_STEEL.JPG" />
+    <None Include="obj\Steel\BLIND_FLANG_STEEL.JPG" />
+    <None Include="obj\Steel\CAP_STEEL.JPG" />
+    <None Include="obj\Steel\COUPLING_STEEL.JPG" />
+    <None Include="obj\Steel\ECC_RED_STEEL.JPG" />
+    <None Include="obj\Steel\ELBOW_STEEL.JPG" />
+    <None Include="obj\Steel\LJ_FLANG_STEEL.JPG" />
+    <None Include="obj\Steel\NIPPLE_STEEL.JPG" />
+    <None Include="obj\Steel\OLET_STEEL.JPG" />
+    <None Include="obj\Steel\PIPE_STEEL.JPG" />
+    <None Include="obj\Steel\RED_STEEL.JPG" />
+    <None Include="obj\Steel\RED_TEE_STEEL.JPG" />
+    <None Include="obj\Steel\SO_FLANG_STEEL.JPG" />
+    <None Include="obj\Steel\STUB_END_STEEL.JPG" />
+    <None Include="obj\Steel\TEE_STEEL.JPG" />
+    <None Include="obj\Steel\UNION_STEEL.JPG" />
+    <None Include="obj\Steel\WN_FLANG_STEEL.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Stainless\BRANCH_CONNECTION_STAINLESS.JPG" />
+    <None Include="obj\Options\StudBoltsA2.JPG" />
+    <None Include="obj\Options\StudBolts88.JPG" />
+    <Content Include="icoPIPE.ico" />
+    <Content Include="obj\Stainless\LJ_FLANGE_ALU.JPG" />
+    <None Include="obj\Stainless\PULLED_TEE_STAINLESS.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
